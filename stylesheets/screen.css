@@ -67,8 +67,34 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 12, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
+#cv_page_bloc {
+  box-sizing: border-box;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* line 17, ../sass/screen.scss */
 body {
   font: 100% Calibri, sans-serif;
-  color: #333;
+}
+
+/* line 23, ../sass/screen.scss */
+section {
+  position: relative;
+  margin-top: 20px;
+}
+/* line 26, ../sass/screen.scss */
+section article {
+  margin-top: 10px;
+}
+/* line 28, ../sass/screen.scss */
+section article aside {
+  position: absolute;
+  left: 0px;
+  width: 100px;
+}
+/* line 33, ../sass/screen.scss */
+section article .content {
+  margin-left: 100px;
 }

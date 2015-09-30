@@ -7,16 +7,32 @@
 
 
 $font-stack:    Calibri, sans-serif;
-$primary-color: #333;
+
+#cv_page_bloc {
+    box-sizing: border-box;
+    max-width: 900px;
+    margin: auto;
+}
 
 body {
   font: 100% $font-stack;
-  color: $primary-color;
 }
 
+$articleDateWidth: 100px;
+
 section {
+    position: relative;
+    margin-top: 20px;
     article{
-        margin-top: 100px;
+        margin-top: 10px;
+        aside{
+            position: absolute;
+            left: 0px;
+            width: $articleDateWidth;
+        }
+        .content{
+            margin-left: $articleDateWidth;
+        }
     }
 
 }
